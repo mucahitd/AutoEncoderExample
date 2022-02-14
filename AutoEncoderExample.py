@@ -36,6 +36,7 @@ print(decoder.summary())
 
 autoencoder.compile(optimizer="adam",loss="binary_crossentropy") #modeli adam ile optimze edici ve loss olarakta binary cross'u verdik
 
+#veri setini indirmek için https://mucahitdemirhan.com/veriseti.zip , aynı dizinde olmasına dikkat ediniz.
 
 #veri setilerini okuduk
 x = []
